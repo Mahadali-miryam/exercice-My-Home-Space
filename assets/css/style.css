@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Raleway:ital@0;1&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px ;
+    padding: 0px;
+    background-color: #736B65;  
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-align: center; 
+    display: flex;     
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px 10px;
+    color:black;
+    width: 100px;      
+}
+
+nav ul a:hover {
+    background-color: #592A2E; /* Couleur de fond au survol */
+    color: #F2F2F2;
+}
+
+nav a:focus {
+    background-color: #592A2E; /* Couleur de fond au clic */
+    color: #F2F2F2;   
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: auto;
+   
+}
+
+p{
+    margin: 20px;
+    padding-right: 30px;
+    width: 200px;
+    height: auto;
+}
+
+.header-menu{
+    width: 900px;
+    height: 200px;
+    background-color: #F2F2F2;
+    padding-bottom: 15px;
+    
+}
+.titre{
+    width: 900px;
+    height: 100px;
+    background-color: #F2F2F2; 
+    text-align: center;
+    margin: auto;
+    
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+
+em {
+    color: #592A2E;
+    font-style: normal;
+    font-weight: bold;   
+}
+
+#carousel img{
+    width: 900px;
+    margin: auto;
+    height: 400px;
+}
+#carousel{
+    margin: auto;
+}
+
+.img-carousel{
+    text-align: center;  
+}
+
+li {
+    padding: 30px 30px;
+    background-color:#F2F2F2 ;  
+}
+
+#flex-img{
+    display: flex;
+    justify-content:space-around;
+    background-color: #F2F2F2;
+    width: 900px;
+    margin: auto;
+}
+
+h4{
+    text-align: center; 
+    background-color: #592A2E; 
+    padding: 10px; 
+    margin: auto;
+    margin-top: 10px;
+}
+h5{
+    text-align: center;
+}
+
+#flex1{
+    display: flex;
+    justify-content:space-around;
+    background-color: #F2F2F2;
+    width: 900px;
+    margin: auto;
+}
+.image1,
+.image2,
+.image3{
+    background-color:#736B65 ;
+}
+
+.texte1{
+    background-color: #736B65;
+    padding: 9px;
+    padding-bottom: 78px;
+}
+.texte2,
+.texte3{
+    background-color: #736B65;
+    padding: 9px;
+    padding-bottom: 20px;
+}
+
+.bouton1,
+.bouton2 p{
+    text-align: left;
+    background-color: #564D48;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+    
+
+
+footer{
+    padding: 10px;
+    color: black;
+    text-align: left;
+    background-color: #F2F2F2;
+    justify-content: center;
+    width: 880px;
+    margin: auto;
+    border-top: 1px black solid;
+}
+.reseaux{
+    text-align: right;
+}
